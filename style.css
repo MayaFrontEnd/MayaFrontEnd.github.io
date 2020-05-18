@@ -1,0 +1,115 @@
+body,
+html {
+	font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+	position: relative;
+	height: 80vh;
+	background: url(headerimage.jpg) center / cover;
+  }
+
+#discount{
+	color: white;
+	background-color: #F05F44;
+	position: absolute;
+  top: 0;
+	padding: 1px 30px;
+}
+
+#header-text {
+  font-size: 40px;
+  background-color: rgba(255, 246, 246, 0.7);
+  color: #302828;
+}
+
+
+#discount span {
+	color: #FFC87A;
+}
+
+#part1 {
+	background-color: rgb(255, 255, 255, 0.8);
+}
+
+#part1 span {
+	color: rgb(57, 78, 21);
+	font-style: italic;
+}
+.box30 {
+    margin: 2em 0;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box30 .box-title {
+    font-size: 1.2em;
+    background: #009C00;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box30 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.phrase-with-checkmark {
+	font-size: x-large;
+	font-weight: bold;
+	color:#006600;
+}
+
+.icon-container {
+	text-align: center;
+	background-color: rgba(41, 199, 69, 0.5);
+}
+
+.icon-item {
+	min-width:200px;
+	width: 32.3333%;            /* 幅指定 */
+	display:  inline-block;     /* インラインブロック要素にする */
+	vertical-align:  top;       /* 要素を上揃えにする */
+	margin-bottom: 5px;         /* 要素同士の隙間調整 */
+	padding-top:  5px;          /* 余白指定 */
+	padding-bottom:  5px;       /* 余白指定 */
+	padding-right: 6%;
+	padding-left: 6%;
+	box-sizing: border-box;     /* 崩れ防止 */
+  }
+
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
